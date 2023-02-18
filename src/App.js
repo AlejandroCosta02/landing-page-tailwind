@@ -1,8 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Content from "./components/Content";
-import CardProject from "./components/CardProject";
+import ProjectList from "./components/ProjectList";
 function App() {
   return (
     <div className="flex flex-col text-center">
@@ -20,9 +19,8 @@ function App() {
           </div>
         </div>
       </section>
-      <Content />
-      <div className="divider lg:divider-horizontal"></div>
-      <Content />
+      
+      <ProjectList />
       
      
       <Footer />

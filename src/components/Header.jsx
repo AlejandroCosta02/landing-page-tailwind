@@ -26,7 +26,7 @@ function Header() {
     <a className="btn btn-ghost normal-case text-xl">Alee</a>
     <BsFillPatchCheckFill />
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><a>About Me</a></li>
       <li tabIndex={0}>
