@@ -1,10 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'alert': 'wiggle 3s ease-in-out 1',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translate(20em, 0)' },
+          '50%': { transform: 'translate(0)' },
+          '100%': { hidden: 'true' },
+        }
+        
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
