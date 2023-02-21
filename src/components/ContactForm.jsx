@@ -40,7 +40,7 @@ function ContactForm() {
       );
       setTimeout(() => {
         diffToast();
-      }, 3000);
+      }, 2000);
   };
 
   return (
