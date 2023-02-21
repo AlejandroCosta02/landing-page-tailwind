@@ -1,29 +1,33 @@
 import React from "react";
 import Projectcard from "./Projectcard";
+import project_1 from '../Images/project_1.png'
+import project_2 from '../Images/project_2.png'
+import project_3 from '../Images/project_3.png'
+import project_4 from '../Images/project_4.png'
 function ProjectList(props) {
   return (
     <section  className="py-10 bg-gray-100">
       <div id='project' className="mx-auto grid max-w-6xl  grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <Projectcard 
-            image='https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' 
-            title='Project #1'
-            description='Js, React, Node, Express, MongoDB'
+            image={project_1}
+            title='Wedding Invitation'
+            description='HTML, Js, Css, Sass'
         />
 
         <Projectcard
-            image='https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1112&q=80'
-            title='Project #2'
-            description='Js, React, Node, Express, MongoDB'
+            image={project_2}
+            title='Weather App'
+            description='React Js, OpenWeather API, Axios, React Hooks, React Router, React Context, React Bootstrap'
         />
         <Projectcard
-            image='https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80'
-            title='Project #3'
-            description='Js, React, Node, Express, MongoDB'
+            image={project_3}
+            title='Rick & Morty API'
+            description='React js, API, css, Js, Pico.css, React Hooks'
         />
         <Projectcard
-            image='https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
-            title='Project #4'
-            description='Js, React, Node, Express, MongoDB'
+            image={project_4}
+            title='Poke-Api'
+            description='ReactJs, Tailwind, DaisyUI, Api, css'
         />
         
        
